@@ -345,7 +345,7 @@ body .dblock {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color: #838119;
+    color: darkblue;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -367,7 +367,7 @@ body .dblock {
     font-size: 48px;
     line-height: 67px;
     text-transform: uppercase;
-    color: brown;
+    color: chartreuse;
 }
 .modal-open .modal::-webkit-scrollbar{
     display: none;
