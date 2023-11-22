@@ -942,7 +942,8 @@ body .modal-backdrop {
 04. Banner Section CSS
 -------------------------------------------*/
 .bithu_v1_baner_sect{
-    background: url(../images/bg/h1_banner_bg.png);
+    /* background: url(../images/bg/h1_banner_bg.png); */
+    background: url(../images/video.gif);
     min-height: 950px;
     width: 100%;
     background-size: cover;
@@ -6156,3 +6157,23 @@ Collections
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
+
+  @media screen and (min-width: 320px) and (max-width: 599px)  {
+    .bithu_v1_baner_sect {
+        /* background: url(../images/bg/h1_banner_bg.png); */
+        background: url(../images/video.gif);
+        min-height: 274px;
+        width: 100%;
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+        padding-top: 192px;
+        background-size: 499px;
+        background-repeat-x: 10rem;
+        background-position-y: 17rem;
+    }
+    .bithu_v1_baner_right_img{
+        margin-top: -100px;
+    }
+}
