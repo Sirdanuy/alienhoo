@@ -942,9 +942,9 @@ body .modal-backdrop {
 04. Banner Section CSS
 -------------------------------------------*/
 .bithu_v1_baner_sect{
-    /* background: url(../images/bg/h1_banner_bg.png); */
-    background: url(../images/video.gif);
-    min-height: 950px;
+    background: url(../images/bg/h1_banner_bg.png);
+    /* background: url(../images/video.gif); */
+    /* min-height: 950px; */
     width: 100%;
     background-size: cover;
     background-position: top center;
@@ -964,7 +964,7 @@ body .modal-backdrop {
     flex-direction: column;
 }
 .bithu_v3_baner_sect{
-    background: url(../images/bg/banner_bg_3.jpg);
+    /* background: url(../images/bg/banner_bg_3.jpg); */
     width: 100%;
     background-size: cover;
     background-position: top center;
@@ -3072,6 +3072,7 @@ div.latest-item .hover-shape-bg{
     padding: 20px 40px;
     position: relative;
     z-index: 1;
+    margin-bottom: -300px;
 }
 .bithu_owl_carousel_content{
     position: relative;
@@ -6171,9 +6172,24 @@ Collections
         padding-top: 192px;
         background-size: 499px;
         background-repeat-x: 10rem;
+        margin-bottom: -300px;
         background-position-y: 17rem;
     }
     .bithu_v1_baner_right_img{
         margin-top: -100px;
+    }
+    .bithu_v1_baner_right{
+        visibility: hidden;
+        max-width: 500px;
+        width: 0px;
+        margin-left: 0px;
+        margin-top: -100px;
+        max-height: 0px;
+    }
+    .bithu_owl_carousel_sect{
+        padding: 20px 40px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -300px;
     }
 }
